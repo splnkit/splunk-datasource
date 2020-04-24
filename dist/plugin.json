@@ -1,0 +1,31 @@
+{
+  "name": "Splunk Metrics",
+  "id": "splunk-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "annotations": true,
+
+  "info": {
+    "description": "Splunk Metrics Datasource",
+    "author": {
+      "name": "Splunk",
+      "url": "https://www.splunk.com"
+    },
+    "logos": {
+      "small": "img/Splunk.svg",
+      "large": "img/Splunk.svg"
+    },
+    "links": [{
+      "name": "GitHub",
+      "url": "https://github.com/splunk"
+    }],
+    "version": "1.0.0",
+    "updated": "2019-08-21"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": []
+  }
+}
